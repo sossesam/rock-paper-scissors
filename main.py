@@ -4,7 +4,7 @@ import random
 possible_options = ["R", "P","S"]
 
 def game_play():
-        
+        print("You just started a rock paper scissors game withe the computer")
         while 1 == 1:
                 comp = random.choice(possible_options)
                 user_choice = input("Select an option R for rock, P for paper, S for scissors : ").upper()
